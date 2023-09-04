@@ -1,38 +1,127 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #23252C;
+}
+
+.half {
+  background-color: #1A1B21;
+  width: 317px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -4px;
+  padding-top: 1px;
+}
+
+main {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app img {
+  margin-top: 3%;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#profpic {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+main > h1 {
+  margin-top: 21px;
+  font-size: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+main > h3 {
+  margin-top: 6px;
+  font-size: 12.8px;
+  color: #F3BF99;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main > p {
+  margin-top: 8px;
+  font-size: 10.24px;
+  color: #F5F5F5;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emailbutton, .linkedbutton {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailbutton > img, .linkedbutton > img {
+  margin-right: 10px;
+}
+
+.emailbutton {
+  margin-right: 10px;
+  background-color: #FFFFFF;
+  padding: 0px 30px;
+  border-radius: 5px;
+}
+
+.linkedbutton {
+  background-color: #5093E2;
+  margin-left: 10px;
+  padding: 0px 23px;
+  border-radius: 5px;
+}
+
+.linknames {
+  font-size: 14px;
+}
+
+.descrip h4 {
+  font-size: 16px;
+  color: #F5F5F5;
+  width: 247px;
+  margin: auto;
+  padding: 30px 0px 10px 0px;
+}
+
+.descrip p {
+  font-size: 10.24px;
+  color: #DCDCDC;
+  width: 247px;
+  margin: auto;
+  line-height: 15px;
+}
+
+#interests {
+  padding-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #161619;
+  width: 317px;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footer img {
+  margin: 20px 12px 20px 12px;
+}
+
+.footermargin {
+  padding-top: 25px;
 }
