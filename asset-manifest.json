@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-DevCard/static/css/main.cb2a19ff.css",
+    "main.js": "/react-DevCard/static/js/main.7af928b3.js",
+    "static/media/Picture1.jpg": "/react-DevCard/static/media/Picture1.f64913fff0cded61839b.jpg",
+    "index.html": "/react-DevCard/index.html",
+    "main.cb2a19ff.css.map": "/react-DevCard/static/css/main.cb2a19ff.css.map",
+    "main.7af928b3.js.map": "/react-DevCard/static/js/main.7af928b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb2a19ff.css",
+    "static/js/main.7af928b3.js"
+  ]
+}
