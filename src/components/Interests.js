@@ -5,7 +5,7 @@ const Interests = () => {
     return (
         <div className="descrip" id='interests'>
             <h4>Interests</h4>
-            <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+            <p>Music scholar. Internet fanatic. Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic. Tech enthusiast. Car lover.
             </p>
         </div>
     );
