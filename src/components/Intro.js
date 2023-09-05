@@ -6,7 +6,7 @@ const Intro = () => {
         <main>
             <h1>Nehan Sudasinghe</h1>
             <h3>Full Stack Developer</h3>
-            <p>8xnehanss.github.io</p>
+            <p><a href='https://github.com/8xNehanSS'>8xnehanss.github.io</a></p>
         </main>
     );
 }

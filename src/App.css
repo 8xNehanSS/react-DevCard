@@ -43,14 +43,28 @@ main > h1 {
 
 main > h3 {
   margin-top: 6px;
-  font-size: 12.8px;
+  font-size: 16px;
   color: #F3BF99;
 }
 
-main > p {
+main > p > a {
   margin-top: 8px;
-  font-size: 10.24px;
+  font-size: 13px;
   color: #F5F5F5;
+  text-decoration: none;
+}
+
+main > p > a:hover {
+  color: green;
+}
+
+.buttons > a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons a:visited {
+  color: black;
 }
 
 .buttons {
@@ -89,7 +103,7 @@ main > p {
 }
 
 .descrip h4 {
-  font-size: 16px;
+  font-size: 20px;
   color: #F5F5F5;
   width: 247px;
   margin: auto;
@@ -97,11 +111,11 @@ main > p {
 }
 
 .descrip p {
-  font-size: 10.24px;
+  font-size: 15px;
   color: #DCDCDC;
   width: 247px;
   margin: auto;
-  line-height: 15px;
+  line-height: 17px;
 }
 
 #interests {
